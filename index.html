@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css" media="(max-width: 600px)">
+</head>
+<body>
+    <section>
+        <h1>Shopping List</h1>
+        <input  type="text" id="inputOne" placeholder="Shopping Item">
+        <input type="number" id="inputTwo" placeholder="Price">
+        <input type="number" id="inputThree" placeholder="Quality">
+        <div id="bottom">
+            <button onclick="submitList()">Submit</button>
+            <p id="total">Total: 0</p>
+        </div>
+    </section>
+    <div id="displayOne"></div>
+</body>
+<script src="script.js"></script>
+</html>
